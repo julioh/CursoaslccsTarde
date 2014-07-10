@@ -14,21 +14,21 @@ history -c
 
 5- Crear 5 archivos llamados y cambiar permisologia
  -curso1.txt   ---RW-R-X
- chmod u= chomd g=rw  chomd o=rx
+
  -curso2.txt   RWX-W-RW-
-chmod u=rwx chomd g=w chmod o=rw
+
  -curso3.txt   --X--X--X
-chmod u=x chomd g=x chmod o=x
+
  -curso4.txt   -W--W-RWX
-chmod u=w chomd g=w chmod o=rwx
+
  -curso5.txt   ---RW-R--
-chmod u= chomd g=rw chmod o=r
+
 
 6-Como puedo visualizar las particiones del disco duro
-cfdisk
+
 
 7-Como matamos un proceso del computador
-kill -9
+
 8-Crear un carpeta llamada libreofficewriter. 
       -abrir el libreofficewriter, 
       buscar el proceso de libreoffice y lo guardan en archivo llamado a.txt
@@ -44,16 +44,18 @@ kill -9
 
 11-Que sucede cuando ejecutas el
 comando: touch registros
-
-
+- Copia el archivo registros al directorio actual.
+- Crea un carpeta nueva.
 - Crea un archivo llamado registro
-
+- Crea una carpeta con directorio
 
 	
 12-El comando: more examen
 
 - Despliega el contenido del archivo examen, una pantalla a la vez.
-
+- Nos cambia al directorio examen.
+- Crea el archivo examen el directorio actual.
+- Muestra las primeras líneas del archivo examen
 
 13-crear un carpeta sl
 descargar el paquete fuente de sl, modificar el tren 
@@ -62,11 +64,10 @@ con su nombre generar un nuevo paquete, e instalarlo
 	
 
 14-comando para listar redes inalambricas.
-ipconfig
+
 
 16- Como agregamos el usuario y gestionamos el cambio de contraseña
-adduser usuario
-passwd usuario
+
 
 17-crear un carpeta canaima-semilla, copiar un sabor desde primera-base
   llamarlo con el nombre de ustedes, editarlo todos los perfil personalizado.
@@ -75,19 +76,15 @@ passwd usuario
 	
 
 18- donde se modifican los repositorios en debian, 
- nano etc/apt/sources.list
- 
-  - cuales son los pasos para ejecutar un repositorio nuevo.
+   - cuales son los pasos para ejecutar un repositorio nuevo.
 	
 
 19- Las particiones de un disco fisico se nombran mediante el nombre de dispositivo y el
 número de partición:
-sda1
-sda2
-sda3
+
 
 20- Como hago un repositorio con debmirror, comando.
-cp -r var/www/mirror
+
 
 21- Guardar el history en .txt para verificar todo lo anterior fue realizado por ti.
 
@@ -97,4 +94,4 @@ cp -r var/www/mirror
 
 	
 23- Como matar un procesos usando top.
-top nombre del proceso.
+
