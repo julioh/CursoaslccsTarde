@@ -1,0 +1,86 @@
+   12  nano examen.txt 
+   13  mkdir Examen-17559701
+   14  ls
+   15  rm -r Examen-17559701/
+   16  LS
+   17  ls
+   18  mkdir Examen-17559701.txt
+   19  ls
+   20  nano Examen-17559701.txt/
+   21  mkdir curso1.txt
+   22  curso2.txt
+   23  mkdir curso.txt
+   24  rm -r curso.txt/
+   25  ls
+   26  mkdir curso2.txt
+   27  mkdir curso3.txt
+   28  mkdir curso4.txt
+   29  mkdir curso5.txt
+   30  ls
+   31  ls -la
+   32  touch unu.txt
+   33  ls
+   34  rm -r unu.txt 
+   35  rm -r curso1.txt/
+   36  rm -r curso2.txt/
+   37  rm -r curso3.txt/
+   38  rm -r curso4.txt/
+   39  rm -r curso5.txt/
+   40  ls
+   41  rm -r Examen-17559701.txt/
+   42  LS
+   43  ls
+   44  rm -r datos\ personales 
+   45  ls
+   46  touch Examen-17559701
+   47  ls
+   48  touch curso1.txt
+   49  touch curso2.txt
+   50  touch curso3.txt
+   51  touch curso4.txt
+   52  touch curso5.txt
+   53  ls
+   54  chmod 065 curso1.txt 
+   55  ls -l
+   56  chmod 726 curso2.txt 
+   57  ls -l
+   58  chmod 111 curso3.txt 
+   59  chmod 227 curso4.txt 
+   60  chmod 064 curso5.txt 
+   61  ls -l
+   62  nano Examen-17559701 
+   63  nano Examen-17559701 
+   64  fdisk
+   65  fdisk -l
+   66  mkdir libreofficewriter
+   67  libreofficewriter
+   68  cd libreofficewriter/
+   69  ls
+   70  touch a.txt
+   71  ls
+   72  cd ..
+   73  libreoffice 
+   74  nano libreoffice
+   75* 
+   76  man ps -aux
+   77  kill
+   78  cat libreoffice
+   79  ps libreoffice
+   80  ps -aux
+   81  ps -aux libreoffice
+   82  mkdir procesador
+   83  grep -o ' lm ' /proc/cpuinfo
+   84  iwlist wlan0 scan
+   85  more Examen-17559701 
+   86  nano /etc/apt/sources.list
+   87  touch permiso.txt
+   88  nano /etc/group
+   89  chown root 
+   90  chown root . permiso.txt 
+   91  ls
+   92  ls -l
+   93  chmod 777 permiso.txt 
+   94  ls -l
+   95  chown usuario . permiso.txt 
+   96  ls -l
+   97  history >> antony.txt
